@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personajes — Dexter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="brand">
+      <img class="brand-logo" data-src="img/logo-dexter.png" alt="Dexter">
+      <span class="brand-text">Dexter<i class="drop"></i></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="personajes.html" class="active">Personajes</a></li>
+        <li class="has-submenu">
+          <a href="temporadas.html">Temporadas</a>
+          <button class="submenu-toggle" aria-expanded="false" aria-label="Mostrar temporadas"><span class="chevron"></span></button>
+          <ul class="submenu">
+            <li><a href="temporadas.html#s1">Temporada I</a></li>
+            <li><a href="temporadas.html#s2">Temporada II</a></li>
+            <li><a href="temporadas.html#s3">Temporada III</a></li>
+            <li><a href="temporadas.html#s4">Temporada IV</a></li>
+            <li><a href="temporadas.html#s5">Temporada V</a></li>
+            <li><a href="temporadas.html#s6">Temporada VI</a></li>
+            <li><a href="temporadas.html#s7">Temporada VII</a></li>
+            <li><a href="temporadas.html#s8">Temporada VIII</a></li>
+          </ul>
+        </li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="characters-hero top" id="personajes">
+    <h1>Personajes</h1>
+    <p>Familia, colegas, amores y enemigos que cruzan el camino de Dexter Morgan a lo largo de las ocho temporadas, en
+      orden de aparición.</p>
+  </section>
+
+  <div class="characters-list">
+
+    <div class="character-row" id="dexter-morgan">
+      <div class="character-photo" data-seed="101" style="background-image:url('img/personajes/dexter-morgan.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role principal">Protagonista</span>
+        <h2>Dexter Morgan</h2>
+        <p class="character-desc">Analista de manchas de sangre en la policía de Miami durante el día; por las
+          noches, sigue en secreto el Código de Harry para dar caza únicamente a otros asesinos que la justicia dejó
+          libres. Su calma perfecta esconde lo que él mismo llama su "Pasajero Oscuro".</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="debra-morgan">
+      <div class="character-photo" data-seed="102" style="background-image:url('img/personajes/debra-morgan.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role familia">Familia Morgan</span>
+        <h2>Debra Morgan</h2>
+        <p class="character-desc">Hermana adoptiva de Dexter y oficial de Miami Metro con un lenguaje tan filoso
+          como su ambición. Empieza en Vicios y Narcóticos soñando con un lugar en Homicidios, sin sospechar jamás lo
+          que su hermano guarda bajo llave.</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="harry-morgan">
+      <div class="character-photo" data-seed="103" style="background-image:url('img/personajes/harry-morgan.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role familia">Familia Morgan</span>
+        <h2>Harry Morgan</h2>
+        <p class="character-desc">Padre adoptivo de Dexter y el policía que primero notó sus instintos violentos.
+          Presente sobre todo en recuerdos, es quien diseña el Código que convierte esos instintos en una forma
+          controlada, casi quirúrgica, de hacer justicia.</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="rita-bennett">
+      <div class="character-photo" data-seed="104" style="background-image:url('img/personajes/rita-bennett.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role amante">Pareja</span>
+        <h2>Rita Bennett</h2>
+        <p class="character-desc">Madre soltera que conoce a Dexter en el Departamento de Policía de Miami y
+          construye con él una vida familiar aparentemente normal. Nunca llega a imaginar la doble vida de la
+          persona con la que decide compartir su casa y a sus hijos.</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="james-doakes">
+      <div class="character-photo" data-seed="105" style="background-image:url('img/personajes/james-doakes.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Sospecha interna</span>
+        <h2>James Doakes</h2>
+        <p class="character-desc">Detective de homicidios de Miami Metro y el único en el departamento que desconfía
+          de Dexter desde el primer momento. Su instinto policial detecta algo fuera de lugar en el analista de
+          sangre mucho antes que nadie más.</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="brian-moser">
+      <div class="character-photo" data-seed="106" style="background-image:url('img/personajes/brian-moser.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Enemigo</span>
+        <h2>Brian Moser</h2>
+        <p class="character-desc">Conocido como el Asesino del Camión de Hielo, deja pistas dirigidas directamente a
+          Dexter a lo largo de toda la primera temporada. Su verdadera identidad, ligada al pasado de los hermanos
+          Morgan, cambia para siempre la forma en que Dexter entiende su propio origen.</p>
+        <a class="character-season" href="temporadas.html#s1">Temporada I</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="lila-west">
+      <div class="character-photo" data-seed="107" style="background-image:url('img/personajes/lila-west.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role amante">Vínculo inestable</span>
+        <h2>Lila West</h2>
+        <p class="character-desc">Madrina del grupo de recuperación al que Dexter asiste como parte de su tapadera.
+          Su cercanía con él se vuelve cada vez más intensa y, con el tiempo, peligrosamente posesiva.</p>
+        <a class="character-season" href="temporadas.html#s2">Temporada II</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="maria-laguerta">
+      <div class="character-photo" data-seed="108" style="background-image:url('img/personajes/maria-laguerta.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role aliado">Miami Metro</span>
+        <h2>Maria LaGuerta</h2>
+        <p class="character-desc">Teniente de Miami Metro al frente de la investigación sobre el llamado "Carnicero
+          de la Bahía". Ambiciosa y perceptiva, su carrera y su instinto de detective terminan cruzándose una y otra
+          vez con la vida secreta de Dexter.</p>
+        <a class="character-season" href="temporadas.html#s2">Temporada II</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="miguel-prado">
+      <div class="character-photo" data-seed="109" style="background-image:url('img/personajes/miguel-prado.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role aliado">Aprendiz</span>
+        <h2>Miguel Prado</h2>
+        <p class="character-desc">Fiscal adjunto y amigo cercano de Dexter que descubre su secreto y le pide ser su
+          "aprendiz". Sin el Código de Harry para guiarlo, su versión de la justicia se vuelve cada vez más
+          imprevisible.</p>
+        <a class="character-season" href="temporadas.html#s3">Temporada III</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="george-king">
+      <div class="character-photo" data-seed="110" style="background-image:url('img/personajes/george-king.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Enemigo</span>
+        <h2>George King</h2>
+        <p class="character-desc">Conocido como el Desollador, despelleja a sus víctimas siguiendo un ritual
+          meticuloso e investiga en paralelo al propio Dexter durante la tercera temporada. Su obsesión por el
+          control se convierte en una amenaza directa para la familia Morgan.</p>
+        <a class="character-season" href="temporadas.html#s3">Temporada III</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="arthur-mitchell">
+      <div class="character-photo" data-seed="111" style="background-image:url('img/personajes/arthur-mitchell.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Enemigo</span>
+        <h2>Arthur Mitchell</h2>
+        <p class="character-desc">El Asesino Trinity: un miembro respetado de su comunidad que oculta un patrón de
+          crímenes rituales repetido cada ciclo desde hace treinta años. Se convierte en el rival más metódico que
+          Dexter ha enfrentado, y en un espejo incómodo de lo que podría llegar a ser su propia vida familiar.</p>
+        <a class="character-season" href="temporadas.html#s4">Temporada IV</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="lumen-pierce">
+      <div class="character-photo" data-seed="112" style="background-image:url('img/personajes/lumen-pierce.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role amante">Cómplice</span>
+        <h2>Lumen Pierce</h2>
+        <p class="character-desc">Sobreviviente de un secuestro y una tortura prolongada que descubre por accidente
+          la verdadera naturaleza de Dexter. En lugar de delatarlo, decide unirse a él para encontrar y detener al
+          resto de sus captores.</p>
+        <a class="character-season" href="temporadas.html#s5">Temporada V</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="jordan-chase">
+      <div class="character-photo" data-seed="113" style="background-image:url('img/personajes/jordan-chase.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Enemigo</span>
+        <h2>Jordan Chase</h2>
+        <p class="character-desc">Gurú motivacional de fama nacional que lidera, tras una fachada perfecta de
+          autoayuda, al grupo responsable del calvario de Lumen. Su encanto público hace todavía más difícil probar
+          lo que realmente es.</p>
+        <a class="character-season" href="temporadas.html#s5">Temporada V</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="travis-marshall">
+      <div class="character-photo" data-seed="114" style="background-image:url('img/personajes/travis-marshall.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Enemigo</span>
+        <h2>Travis Marshall</h2>
+        <p class="character-desc">Asesino fanático religioso que recrea escenas del Apocalipsis bíblico por las
+          calles de Miami. Actúa bajo la influencia de un mentor que conoce mejor que nadie las escrituras que cita.</p>
+        <a class="character-season" href="temporadas.html#s6">Temporada VI</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="james-gellar">
+      <div class="character-photo" data-seed="115" style="background-image:url('img/personajes/james-gellar.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role enemigo">Mentor oscuro</span>
+        <h2>James Gellar</h2>
+        <p class="character-desc">Profesor de teología y mentor de Travis Marshall, con una lectura propia y radical
+          de los textos bíblicos. Su verdadero papel en los crímenes del Apocalipsis no queda claro hasta el final de
+          la temporada.</p>
+        <a class="character-season" href="temporadas.html#s6">Temporada VI</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="hannah-mckay">
+      <div class="character-photo" data-seed="116" style="background-image:url('img/personajes/hannah-mckay.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role amante">Pareja</span>
+        <h2>Hannah McKay</h2>
+        <p class="character-desc">Envenenadora serena y carismática, con un pasado marcado por varias muertes
+          sospechosas a su alrededor. Su relación con Dexter lo obliga a confrontar qué tanto de sí mismo está
+          dispuesto a compartir con alguien que lo entiende de verdad.</p>
+        <a class="character-season" href="temporadas.html#s7">Temporada VII</a>
+      </div>
+    </div>
+
+    <div class="character-row" id="evelyn-vogel">
+      <div class="character-photo" data-seed="117" style="background-image:url('img/personajes/evelyn-vogel.jpg')">
+      </div>
+      <div class="character-info">
+        <span class="character-role aliado">Diseñadora del Código</span>
+        <h2>Dr. Evelyn Vogel</h2>
+        <p class="character-desc">Psiquiatra especializada en psicopatía que ayudó a Harry a diseñar el Código
+          décadas atrás. Su regreso a la vida de Dexter trae respuestas sobre su pasado, y una nueva amenaza
+          dispuesta a acabar con su legado.</p>
+        <a class="character-season" href="temporadas.html#s8">Temporada VIII</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-legal">
+      <p>© 2026 Fan page no oficial sobre Dexter. Todas las marcas, personajes y contenido original pertenecen a sus
+        respectivos dueños (Showtime / Paramount). Sitio creado con fines educativos.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://x.com" target="_blank" rel="noopener" aria-label="X (Twitter)"><i
+          class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i
+          class="fa-brands fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

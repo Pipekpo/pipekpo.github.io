@@ -1,0 +1,39 @@
+Este sitio funciona sin imágenes propias: mientras no coloques tus fotos,
+cada espacio muestra automáticamente una foto de referencia (con la etiqueta
+"Imagen de referencia") gracias al fallback en js/script.js. Podés presentar
+el sitio así, y reemplazar las fotos más adelante con estos nombres exactos:
+
+LOGO
+----
+img/logo-dexter.png        Logo o isotipo de la serie (fondo transparente
+                            recomendado). Si no lo agregás, el encabezado
+                            muestra el texto "Dexter" en su lugar.
+
+INICIO
+------
+img/inicio-representativa.jpg   Imagen general de la serie para la portada.
+
+PERSONAJES (carpeta img/personajes/)
+-------------------------------------
+dexter-morgan.jpg      debra-morgan.jpg       harry-morgan.jpg
+rita-bennett.jpg        james-doakes.jpg       brian-moser.jpg
+lila-west.jpg           maria-laguerta.jpg     miguel-prado.jpg
+george-king.jpg         arthur-mitchell.jpg    lumen-pierce.jpg
+jordan-chase.jpg        travis-marshall.jpg    james-gellar.jpg
+hannah-mckay.jpg        evelyn-vogel.jpg
+
+TEMPORADAS Y GALERÍA (carpeta img/, se reutilizan en ambas páginas)
+--------------------------------------------------------------------
+s1-1.jpg  s1-2.jpg  s1-3.jpg   (Temporada 1)
+s2-1.jpg  s2-2.jpg  s2-3.jpg   (Temporada 2)
+s3-1.jpg  s3-2.jpg  s3-3.jpg   (Temporada 3)
+s4-1.jpg  s4-2.jpg  s4-3.jpg   (Temporada 4)
+s5-1.jpg  s5-2.jpg  s5-3.jpg   (Temporada 5)
+s6-1.jpg  s6-2.jpg  s6-3.jpg   (Temporada 6)
+s7-1.jpg  s7-2.jpg  s7-3.jpg   (Temporada 7)
+s8-1.jpg  s8-2.jpg  s8-3.jpg   (Temporada 8)
+
+Tip: no hace falta que sean capturas oficiales — funcionan igual de bien
+fotos de fan art, wallpapers o imágenes que vos mismo compongas, siempre que
+respeten el tamaño aproximado del recuadro donde van (los personajes son
+verticales 3:4, las de temporada son horizontales 4:3).

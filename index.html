@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dexter — Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="brand">
+      <img class="brand-logo" data-src="img/logo-dexter.png" alt="Dexter">
+      <span class="brand-text">Dexter<i class="drop"></i></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li class="has-submenu">
+          <a href="temporadas.html">Temporadas</a>
+          <button class="submenu-toggle" aria-expanded="false" aria-label="Mostrar temporadas"><span class="chevron"></span></button>
+          <ul class="submenu">
+            <li><a href="temporadas.html#s1">Temporada I</a></li>
+            <li><a href="temporadas.html#s2">Temporada II</a></li>
+            <li><a href="temporadas.html#s3">Temporada III</a></li>
+            <li><a href="temporadas.html#s4">Temporada IV</a></li>
+            <li><a href="temporadas.html#s5">Temporada V</a></li>
+            <li><a href="temporadas.html#s6">Temporada VI</a></li>
+            <li><a href="temporadas.html#s7">Temporada VII</a></li>
+            <li><a href="temporadas.html#s8">Temporada VIII</a></li>
+          </ul>
+        </li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro-split">
+    <div class="intro-text">
+      <span class="hero-eyebrow">Miami, Florida — presente</span>
+      <h1>Un código muy preciso<br>para un instinto muy oscuro</h1>
+      <p>Dexter Morgan trabaja de día como analista de manchas de sangre en el Departamento de Policía de Miami. Nadie
+        en la oficina imagina que ese mismo ojo clínico es la herramienta que usa, por las noches, para elegir a sus
+        propias víctimas: asesinos que la ley nunca logró detener.</p>
+      <p>Su padre adoptivo, el oficial Harry Morgan, descubrió el impulso violento de Dexter cuando era apenas un niño
+        y, en lugar de intentar apagarlo, le enseñó a canalizarlo. De ahí nace el Código de Harry: un conjunto de
+        reglas estrictas que mantienen a Dexter dentro de un límite muy delgado entre el instinto y el control.</p>
+      <p>Temporada tras temporada, ese equilibrio se pone a prueba: nuevos asesinos, nuevas relaciones y las dudas de
+        su propia familia amenazan con exponer en cualquier momento lo que esconde bajo la fachada de un empleado
+        ejemplar. Esta página reúne a sus personajes, sus ocho temporadas y algunos de los detalles que convirtieron
+        a la serie en un fenómeno.</p>
+    </div>
+    <div class="intro-image" data-seed="200" style="background-image:url('img/inicio-representativa.jpg')"></div>
+  </section>
+
+
+  <div class="divider"><span></span></div>
+
+  <section class="hub">
+    <h2>Explorá el sitio</h2>
+    <div class="hub-grid">
+      <a class="hub-card" href="personajes.html">
+        <span class="hub-num mono">01</span>
+        <h3>Personajes</h3>
+        <p>Familia, aliados, amores y enemigos de Dexter Morgan, con su rol y la temporada en la que aparecen.</p>
+      </a>
+      <a class="hub-card" href="temporadas.html">
+        <span class="hub-num mono">02</span>
+        <h3>Temporadas</h3>
+        <p>Las ocho temporadas de la serie, con sinopsis, episodios destacados y reparto.</p>
+      </a>
+      <a class="hub-card" href="galeria.html">
+        <span class="hub-num mono">03</span>
+        <h3>Galería</h3>
+        <p>Fotos icónicas de cada temporada para recorrer en grande, y curiosidades de la serie.</p>
+      </a>
+      <a class="hub-card" href="contacto.html">
+        <span class="hub-num mono">04</span>
+        <h3>Contacto</h3>
+        <p>¿Consultas, correcciones u opiniones sobre la serie? Escribinos desde acá.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-legal">
+      <p>© 2026 Fan page no oficial sobre Dexter. Todas las marcas, personajes y contenido original pertenecen a sus
+        respectivos dueños (Showtime / Paramount). Sitio creado con fines educativos.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://x.com" target="_blank" rel="noopener" aria-label="X (Twitter)"><i
+          class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i
+          class="fa-brands fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

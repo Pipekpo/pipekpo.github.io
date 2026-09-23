@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería — Dexter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="brand">
+      <img class="brand-logo" data-src="img/logo-dexter.png" alt="Dexter">
+      <span class="brand-text">Dexter<i class="drop"></i></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="personajes.html">Personajes</a></li>
+        <li class="has-submenu">
+          <a href="temporadas.html">Temporadas</a>
+          <button class="submenu-toggle" aria-expanded="false" aria-label="Mostrar temporadas"><span class="chevron"></span></button>
+          <ul class="submenu">
+            <li><a href="temporadas.html#s1">Temporada I</a></li>
+            <li><a href="temporadas.html#s2">Temporada II</a></li>
+            <li><a href="temporadas.html#s3">Temporada III</a></li>
+            <li><a href="temporadas.html#s4">Temporada IV</a></li>
+            <li><a href="temporadas.html#s5">Temporada V</a></li>
+            <li><a href="temporadas.html#s6">Temporada VI</a></li>
+            <li><a href="temporadas.html#s7">Temporada VII</a></li>
+            <li><a href="temporadas.html#s8">Temporada VIII</a></li>
+          </ul>
+        </li>
+        <li><a href="galeria.html" class="active">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="gallery-hero">
+    <h1>Galería</h1>
+    <p>Un recorrido fotográfico por las ocho temporadas, en orden — fijate cómo el tono se va enfriando y virando a
+      rojo sangre a medida que la historia se acerca a su final.</p>
+  </section>
+
+  <div class="gallery-mosaic">
+
+    <div class="gallery-item h-tall" data-season="1" data-seed="1" style="background-image:url('img/s1-1.jpg')">
+      <p class="gallery-label">T1 · Miami Metro, 2006</p>
+    </div>
+    <div class="gallery-item h-short" data-season="1" data-seed="2" style="background-image:url('img/s1-2.jpg')">
+      <p class="gallery-label">T1 · El ritual</p>
+    </div>
+    <div class="gallery-item h-mid" data-season="1" data-seed="3" style="background-image:url('img/s1-3.jpg')">
+      <p class="gallery-label">T1 · El Asesino del Camión de Hielo</p>
+    </div>
+
+    <div class="gallery-item h-mid" data-season="2" data-seed="4" style="background-image:url('img/s2-1.jpg')">
+      <p class="gallery-label">T2 · El vertedero</p>
+    </div>
+    <div class="gallery-item h-tall" data-season="2" data-seed="5" style="background-image:url('img/s2-2.jpg')">
+      <p class="gallery-label">T2 · Grupo de recuperación</p>
+    </div>
+    <div class="gallery-item h-short" data-season="2" data-seed="6" style="background-image:url('img/s2-3.jpg')">
+      <p class="gallery-label">T2 · La fuerza especial</p>
+    </div>
+
+    <div class="gallery-item h-short" data-season="3" data-seed="7" style="background-image:url('img/s3-1.jpg')">
+      <p class="gallery-label">T3 · Miguel Prado</p>
+    </div>
+    <div class="gallery-item h-mid" data-season="3" data-seed="8" style="background-image:url('img/s3-2.jpg')">
+      <p class="gallery-label">T3 · El Desollador</p>
+    </div>
+    <div class="gallery-item h-tall" data-season="3" data-seed="9" style="background-image:url('img/s3-3.jpg')">
+      <p class="gallery-label">T3 · La boda</p>
+    </div>
+
+    <div class="gallery-item h-tall" data-season="4" data-seed="10" style="background-image:url('img/s4-1.jpg')">
+      <p class="gallery-label">T4 · Arthur Mitchell</p>
+    </div>
+    <div class="gallery-item h-short" data-season="4" data-seed="11" style="background-image:url('img/s4-2.jpg')">
+      <p class="gallery-label">T4 · El ciclo de Trinity</p>
+    </div>
+    <div class="gallery-item h-mid" data-season="4" data-seed="12" style="background-image:url('img/s4-3.jpg')">
+      <p class="gallery-label">T4 · Vida de familia</p>
+    </div>
+
+    <div class="gallery-item h-mid" data-season="5" data-seed="13" style="background-image:url('img/s5-1.jpg')">
+      <p class="gallery-label">T5 · Lumen Pierce</p>
+    </div>
+    <div class="gallery-item h-tall" data-season="5" data-seed="14" style="background-image:url('img/s5-2.jpg')">
+      <p class="gallery-label">T5 · Jordan Chase</p>
+    </div>
+    <div class="gallery-item h-short" data-season="5" data-seed="15" style="background-image:url('img/s5-3.jpg')">
+      <p class="gallery-label">T5 · Trabajo en equipo</p>
+    </div>
+
+    <div class="gallery-item h-short" data-season="6" data-seed="16" style="background-image:url('img/s6-1.jpg')">
+      <p class="gallery-label">T6 · Escenas del Apocalipsis</p>
+    </div>
+    <div class="gallery-item h-mid" data-season="6" data-seed="17" style="background-image:url('img/s6-2.jpg')">
+      <p class="gallery-label">T6 · El profesor Gellar</p>
+    </div>
+    <div class="gallery-item h-tall" data-season="6" data-seed="18" style="background-image:url('img/s6-3.jpg')">
+      <p class="gallery-label">T6 · Miami en alerta</p>
+    </div>
+
+    <div class="gallery-item h-tall" data-season="7" data-seed="19" style="background-image:url('img/s7-1.jpg')">
+      <p class="gallery-label">T7 · La sospecha de LaGuerta</p>
+    </div>
+    <div class="gallery-item h-mid" data-season="7" data-seed="20" style="background-image:url('img/s7-2.jpg')">
+      <p class="gallery-label">T7 · Hannah McKay</p>
+    </div>
+    <div class="gallery-item h-short" data-season="7" data-seed="21" style="background-image:url('img/s7-3.jpg')">
+      <p class="gallery-label">T7 · Decisiones límite</p>
+    </div>
+
+    <div class="gallery-item h-mid" data-season="8" data-seed="22" style="background-image:url('img/s8-1.jpg')">
+      <p class="gallery-label">T8 · Dr. Evelyn Vogel</p>
+    </div>
+    <div class="gallery-item h-short" data-season="8" data-seed="23" style="background-image:url('img/s8-2.jpg')">
+      <p class="gallery-label">T8 · Una nueva amenaza</p>
+    </div>
+    <div class="gallery-item h-tall" data-season="8" data-seed="24" style="background-image:url('img/s8-3.jpg')">
+      <p class="gallery-label">T8 · El final del camino</p>
+    </div>
+
+  </div>
+
+  <div class="divider"><span></span></div>
+
+  <section class="curiosities-hero">
+    <h2>Curiosidades</h2>
+    <p>Algunos detalles de producción y de guion que ayudan a entender por qué la serie se volvió un fenómeno.</p>
+  </section>
+
+  <div class="curiosities-grid">
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 01</span>
+      <p>La serie está basada en la saga de novelas que arrancó con "Darkly Dreaming Dexter", del escritor Jeff
+        Lindsay, publicada por primera vez en 2004.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 02</span>
+      <p>La secuencia de créditos iniciales convierte la rutina matutina de Dexter —afeitarse, cortar un huevo,
+        exprimir una naranja sangrina, atarse los cordones— en imágenes inquietantes que insinúan su verdadera
+        naturaleza. Es una de las aperturas más recordadas de la televisión y llegó a estar nominada al Emmy.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 03</span>
+      <p>Buena parte de la serie se sostiene sobre la narración interna de Dexter: su voz en off deja escuchar lo
+        que realmente piensa mientras su rostro, hacia afuera, se mantiene siempre tranquilo y amable.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 04</span>
+      <p>El vocabulario técnico del laboratorio de Miami Metro está inspirado en procedimientos forenses reales,
+        desde el análisis de patrones de manchas de sangre hasta la manera en que Dexter conserva una pequeña
+        muestra de cada una de sus víctimas.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 05</span>
+      <p>El ambiente cálido y luminoso de Miami funciona como contraste visual permanente frente a lo que ocurre en
+        la trama: una ciudad soleada que esconde, a plena luz del día, a un depredador muy distinto.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 06</span>
+      <p>Después del final original en 2013, la historia siguió creciendo: la miniserie "Dexter: New Blood" (2021)
+        retomó a Dexter años más tarde bajo otra identidad, la precuela "Dexter: Original Sin" (2024) mostró sus
+        primeros años como analista forense, y "Dexter: Resurrection" (2025) continuó su historia una vez más, otra
+        vez con Michael C. Hall en el papel principal.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 07</span>
+      <p>El Código de Harry —la regla que limita a Dexter a matar únicamente a quienes escaparon de la justicia por
+        crímenes violentos propios— funciona como el verdadero motor moral de toda la serie, más que cualquier caso
+        puntual de cada temporada.</p>
+    </div>
+
+    <div class="curiosity-card">
+      <span class="tag-num mono">Dato 08</span>
+      <p>Varios actores secundarios, como el que interpreta al detective Angel Batista, aparecieron en distintas
+        entregas de la franquicia a lo largo de casi veinte años, algo poco habitual para un universo de televisión.</p>
+    </div>
+
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">×</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Siguiente">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-legal">
+      <p>© 2026 Fan page no oficial sobre Dexter. Todas las marcas, personajes y contenido original pertenecen a sus
+        respectivos dueños (Showtime / Paramount). Sitio creado con fines educativos.</p>
+    </div>
+    <div class="footer-social">
+      <a href="https://x.com" target="_blank" rel="noopener" aria-label="X (Twitter)"><i
+          class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i
+          class="fa-brands fa-instagram"></i></a>
+      <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i
+          class="fa-brands fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    const items = [...document.querySelectorAll('.gallery-item')];
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+    let current = 0;
+
+    function abrir(i) {
+      current = i;
+      mostrar();
+      lightbox.classList.add('open');
+    }
+    function mostrar() {
+      const item = items[current];
+      const url = item.style.backgroundImage.slice(5, -2);
+      const label = item.querySelector('.gallery-label');
+      lightboxImg.src = url;
+      lightboxCaption.textContent = label ? label.textContent : '';
+    }
+    function cerrar() { lightbox.classList.remove('open'); }
+    function siguiente() { current = (current + 1) % items.length; mostrar(); }
+    function anterior() { current = (current - 1 + items.length) % items.length; mostrar(); }
+
+    items.forEach((item, i) => item.addEventListener('click', () => abrir(i)));
+    document.getElementById('lightboxClose').addEventListener('click', cerrar);
+    document.getElementById('lightboxNext').addEventListener('click', siguiente);
+    document.getElementById('lightboxPrev').addEventListener('click', anterior);
+    lightbox.addEventListener('click', (e) => { if (e.target === lightbox) cerrar(); });
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('open')) return;
+      if (e.key === 'Escape') cerrar();
+      if (e.key === 'ArrowRight') siguiente();
+      if (e.key === 'ArrowLeft') anterior();
+    });
+
+    // Swipe táctil: deslizar hacia la izquierda/derecha pasa de foto en mobile.
+    let touchX = 0;
+    lightbox.addEventListener('touchstart', (e) => {
+      touchX = e.changedTouches[0].clientX;
+    }, { passive: true });
+    lightbox.addEventListener('touchend', (e) => {
+      const delta = e.changedTouches[0].clientX - touchX;
+      if (Math.abs(delta) < 40) return;
+      if (delta < 0) siguiente(); else anterior();
+    }, { passive: true });
+  </script>
+</body>
+
+</html>
